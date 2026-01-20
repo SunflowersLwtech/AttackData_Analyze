@@ -1,0 +1,4 @@
+"Variable","Total_Records","Original_NA","Phase1_Logical","Phase2_MAD","Phase2_Percentile","Total_Flagged","Remaining_Valid"
+"Ransom",592765,163955,0,54015,836,54438,374372
+"DownTime",592765,2480,761,30174,352,30935,559350
+"Loss",592765,37214,8912,925,960,10250,545301
