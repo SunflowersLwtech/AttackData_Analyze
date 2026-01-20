@@ -1,0 +1,43 @@
+# R相关文件
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj
+.Rproj.user/
+
+# 数据文件（太大，不提交）
+*.RData
+*.rds
+*.csv
+*.xlsx
+*.txt
+*.rar
+
+# 报告文件（PDF太大）
+*.pdf
+
+# 临时文件
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 输出文件夹（保留结构但不提交内容）
+raw_data/processed_data/*.RData
+raw_data/processed_data/*.csv
+raw_data/processed_data/*.rds
+raw_data/processed_data/*.pdf
+docs/reports/*.pdf
+docs/reports/*.csv
+
+# 但保留文件夹结构
+!raw_data/processed_data/.gitkeep
+!docs/reports/.gitkeep
