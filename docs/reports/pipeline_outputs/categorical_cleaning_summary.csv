@@ -1,0 +1,7 @@
+"Variable","Original_Categories","Cleaned_Categories","Reduction_Strategy","Cleaned_Column"
+"WebServer","177","6","Version stripping + Top 15","WebServer_clean"
+"Country","360","31","Standardization + Top 30","Country_clean"
+"Notify","9906","51","Standardization + Top 50","Notify_clean"
+"URL","N/A (URLs are unique)","11","TLD extraction + Top 10","URL_suffix"
+"IP","N/A (IPs are unique)","N/A (validation only)","IPv4/IPv6 validation","IP_clean"
+"Encoding","50","11","Standardization + Top 10","Encoding_clean"
