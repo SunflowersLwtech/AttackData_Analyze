@@ -4,10 +4,46 @@
 # macOS
 .DS_Store
 **/.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# macOS Icon files
+Icon
+
+# macOS Thumbnails
+._*
+
+# macOS Directory metadata
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# macOS Resource forks
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 # R artifacts
 .Rhistory
 .RData
 .Rproj.user/
 
+# Microsoft Office temporary files
+~$*
+*.tmp
+~*.doc*
+~*.xls*
+~*.ppt*
+
+# Ignored directories
+docs/reports/legacy_report/
+docs/reports/tmp_images/
+
+# Data files
 raw_data/processed_data/mice_imputed_data.csv
